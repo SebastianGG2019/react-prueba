@@ -1,0 +1,19 @@
+/*Estilos del formulario*/
+.Bienvenida{
+    color: white;
+  }
+  .inputs-form{
+    width: 100%;
+  }
+  .inputs-form input{
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid white;
+  }
+  .inputs-form input::placeholder{
+    color: white;
+    text-transform: uppercase;
+  }
+  

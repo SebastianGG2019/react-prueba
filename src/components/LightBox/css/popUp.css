@@ -1,0 +1,36 @@
+/*Estilos PopUp*/
+.contenedorPopUp {
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    height: 100%;
+    transition: all 1s;
+  }
+  .contenedorPopUp.abierto{
+    opacity: 1;
+    visibility: visible;
+  }
+  .contenedorPopUp .popUp {
+    background: white;
+    width: 50%;
+    z-index: 9999999;
+    top: -27px;
+    margin: 10% 25%;
+    border: 1px solid;
+    padding: 35px 15px;
+    height: auto;
+    position: absolute;
+  }
+  @media (max-width: 920px) {
+    /*  Estilos reesponsive del popUp */
+    .contenedorPopUp .popUp {
+      width: 90%;
+      top: 0px;
+      margin: 10% 5%;
+    }
+  }
